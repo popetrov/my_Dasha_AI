@@ -1,0 +1,63 @@
+####################################################################################################
+human: unless it's ending
+human: Uh Steve, just yeah.
+ai: Hi  this is Dasha with Acme Credit Union. You visited one of our offices earlier today. I'd like to ask you a few questions about the experience. Do you have two minutes now? 
+[
+  {
+    "type": "Intent",
+    "skill": "sentiment",
+    "weight": -1,
+    "likelihood": -1,
+    "location": {
+      "start": 0,
+      "end": 3
+    },
+    "intent": null,
+    "state": "positive",
+    "sentenceType": "statement"
+  },
+  {
+    "type": "Intent",
+    "skill": "9fcd79e11df59f7a1b721a00177a153b:v2",
+    "weight": 0.97101,
+    "likelihood": 1,
+    "location": {
+      "start": -1,
+      "end": -1
+    },
+    "intent": "yes",
+    "state": "positive",
+    "sentenceType": "statement"
+  }
+]
+human: bye bye
+ai: Perfect, thank you. First question. How would you rate the bank employees with whom you interacted? Please use the scale of 1 to 5.
+[
+  {
+    "type": "Intent",
+    "skill": "sentiment",
+    "weight": -1,
+    "likelihood": -1,
+    "location": {
+      "start": 0,
+      "end": 2
+    },
+    "intent": null,
+    "state": "neutral",
+    "sentenceType": "statement"
+  },
+  {
+    "type": "Intent",
+    "skill": "9fcd79e11df59f7a1b721a00177a153b:v2",
+    "weight": 0.99995,
+    "likelihood": 1,
+    "location": {
+      "start": -1,
+      "end": -1
+    },
+    "intent": "bye",
+    "state": "positive",
+    "sentenceType": "statement"
+  }
+]
+human: Deleting this app.
